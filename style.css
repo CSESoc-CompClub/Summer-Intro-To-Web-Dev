@@ -1,0 +1,45 @@
+img {
+    max-width: 100%;
+}
+ 
+body {
+    background-color: hsl(274, 100%, 8%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+div {
+    overflow: hidden;
+}
+ 
+#section-landing {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("assets/galaxy-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.landing-img {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+ 
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+} 
+ 
+#main-title {
+    position: relative;
+    font-size: 11.25rem;
+    z-index: 0;
+}
+ 
+#secondary-title {
+    font-size: 7rem;
+}
+ 
