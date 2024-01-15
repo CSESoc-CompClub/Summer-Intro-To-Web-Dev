@@ -42,4 +42,83 @@ div {
 #secondary-title {
     font-size: 7rem;
 }
+
+#section-planet {
+    background-image: url(assets/pixspace.jpeg);
+    height: 1000px;
+}
+ 
+ 
+.text {
+    color: whitesmoke;
+}
+ 
+#info-text {
+    position: absolute;
+    margin-left: 1200px;
+    font-size: 30px;
+}
+ 
+#cc-title {
+    width: 500px;
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 330px;
+}
+ 
+#mercury {
+    height:140px;
+    width: 140px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+ 
+#venus {
+    height:150px;
+    width: 150px;
+    margin-top: -120px;
+   margin-left: 1000px;
+}
+
+#mars {
+   height: 150px;
+   width: 150px;
+   margin-top: 250px;
+   margin-left: 210px;
+}
+
+#earth {
+   height: 150px;
+   width: 150px;
+   margin-top: 20px;
+   margin-left: 550px;
+}
+
+#jupiter {
+   height: 200px;
+   width: 300px;
+   margin-top: -430px;
+}
+
+#saturn {
+   height: 180px;
+   width: 180px;
+   margin-top: 50px;
+   margin-left: 730px;
+}
+
+#pluto {
+   height: 140px;
+   width: 140px;
+   margin-top: -400px;
+   margin-left: 900px;
+}
+
+#section-planet img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
  
